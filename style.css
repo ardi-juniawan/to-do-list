@@ -29,7 +29,7 @@ body{
 .form-wrapper input{
     border: none;
     border-radius: 15px;
-    width: 300px;
+    width: 30vw;
     height: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 11px;
@@ -79,6 +79,7 @@ body{
     border-radius: 20px;
     color: white;
     cursor: pointer;
+    margin: 2px;
 }
 .control-wrapper{
     width: 100%;
