@@ -1,0 +1,110 @@
+body{
+    background-color: #FCC737;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#FDF7F4;
+}
+.todo-wrapper{
+    width: 50vw;
+    background-color: #7E1891;
+    border-radius: 15px;
+    margin: 2rem auto;
+    padding: 25px;
+    font-weight: 250;
+}
+.todo-wrapper h2{
+    margin: 0;
+    text-align: center;
+}
+.todo-wrapper p{
+    font-style: italic;
+    margin: 5px 0;
+    text-align: center;
+    font-size: 8px;
+    opacity: 0.5;
+}
+.form-wrapper{
+    width: 100%;
+    text-align: center;
+}
+.form-wrapper input{
+    border: none;
+    border-radius: 15px;
+    width: 300px;
+    height: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    color: #7E1891;
+    font-weight: bold;
+}
+.form-wrapper input:focus{
+    border: 1px solid #FCC737;
+    outline: none;
+    
+}
+.todo-wrapper ol{
+    margin: 20px 0;
+}
+.todo-wrapper ol li{
+    margin: 5px 0;
+    padding: 3px;
+    
+}
+.todo-wrapper form{
+    display: inline-block;
+}
+.todo-wrapper input{
+    padding:3px 5px;
+    text-align: center;
+}
+.todo-wrapper .pretty-button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+
+}
+.todo-wrapper .pretty-button{
+    margin:10px 2px;
+    color: white;
+    background-color: #0093D5;
+    border-radius: 15px;
+    padding: 5px 20px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: small;
+}
+.control-wrapper button{
+    border: none;
+    background-color: #0093D5;
+    padding: 10px 10px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+.control-wrapper{
+    width: 100%;
+    text-align: center;
+}
+.control-wrapper button{
+    border: none;
+    background-color: #0093D5;
+    padding: 10px 10px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+.control-wrapper button:hover{
+    opacity: 0.5;
+    transition: all 0.2s ease-out;
+}
+.completed{
+    text-decoration: line-through #FCC737;
+}
+ol li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    width: 100%;
+}
+ol li:hover{
+    background-color: #F26B0F;
+    cursor: pointer;
+}
